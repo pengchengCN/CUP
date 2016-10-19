@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>echarts使用百度地图</title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<div id="allmap" style="width:100%;height:100%;"></div>
+<div class="allText">
+    <img src="img/logo.jpg" width="50" height="35"/>
+    <h1>深圳市ATM机布局优化应用</h1>
+</div>
+<div id="tab" style="display: none">
+    <div class="tabText"><h1></h1></div>
+    <div class="tab_menu">
+        <ul>
+            <li class="selected">区域特性</li>
+            <li>交易分析</li>
+        </ul>
+    </div>
+    <div class="tab_box">
+        <div class="area">
+            <p>在该区域建议投放ATM个数为
+                <span class="colorRed"></span>
+                台，ATM机平均距离以
+                <span class="colorRed"></span>
+                米为参考间隔，可以使跨行交易的投产比达到最优。</p>
+            <div id="areaPie" class="areaEcharts"></div>
+            <div id="areaBar" class="areaEcharts"></div>
+        </div>
+        <div class="hide transaction">
+            <div id="transactionLine" class="areaEcharts"></div>
+            <div id="transactionBar" class="areaEcharts"></div>
+        </div>
+    </div>
+    <div class="close">×</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/echarts.js"></script>
+<script type="text/javascript" src="js/apiMap.js"></script>
+<!--<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=vgQfNjTQDlCar24CrTIdWcwY"></script>-->
+<script type="text/javascript" src="js/bmap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</html>

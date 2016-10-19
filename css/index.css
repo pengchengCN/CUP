@@ -1,0 +1,139 @@
+html,body,div,ul,li,h1,p,span{
+    margin:0;
+    padding:0;
+    font-family: "微软雅黑", Helvetica, sans-serif;
+    font-size: 12px;
+    -webkit-user-select: none;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+ul,li{
+    list-style-type: none;
+}
+
+.allText{
+    position: absolute;
+    top:0;
+    margin:0 38%;
+    width: 24%;
+    height: 41px;
+    line-height: 41px;
+    background: #fff;
+}
+.allText >img{
+    margin:3px 10px
+}
+.allText >h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#tab{
+    position: absolute;
+    top:0;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.tabText{
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    background: #0CA4FF;
+}
+.tabText >h1{
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.tab_menu{
+    height: 40px;
+    background: #ccc;
+}
+.tab_menu li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 4px;
+    cursor:pointer;
+
+}
+.tab_menu li.hover{
+    background:#DFDFDF;
+}
+.tab_menu li.selected{
+    color:#0CA4FF;
+    background:#fff;
+}
+.tab_box{
+    clear:both;
+    overflow: hidden;
+}
+.hide{
+    display:none;
+}
+
+/*区域特性*/
+.area{
+    padding:10px;
+    overflow-y: auto;
+}
+.area >p{
+    padding:10px;
+    border: 1px solid #f8f8f8;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.colorRed{
+    color:red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.areaEcharts{
+    margin:10px 0;
+    width:100%;
+    height: 300px;
+}
+
+/*区域特性*/
+.transaction{
+    padding:10px;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*关闭弹出层*/
+.close{
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:#ccc;
+    cursor: pointer;
+}
+.close:hover{
+    color:#fff;
+}

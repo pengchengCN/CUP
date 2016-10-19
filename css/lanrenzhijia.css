@@ -1,0 +1,119 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	text-align:left;
+	font-size:12px;
+}
+h1 {
+	font-size:16px;
+}
+#scrollbar {
+	width: 400px;
+	margin:10px auto;
+}
+#scrollbar .scrollbar {
+	position: relative;
+	background-position: 0 0;
+	float: right;
+	width: 8px;
+}
+#scrollbar .viewport {
+	width: 500px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+#scrollbar .track {
+	background: #ccc;
+	height: 100%;
+	width: 8px;
+	position: relative;
+}
+#scrollbar .thumb {
+	background: #CC0071;
+	height: 20px;
+	width: 8px;
+	cursor: pointer;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+#scrollbar .viewport {
+	width: 380px;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+#scrollbar .overview {
+	list-style: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	height: 2000px;
+}
+#scrollbar .overview p {
+	color:#999;
+	line-height:200%;
+	text-indent:2em;
+}
+#scrollbar2 {
+	margin: 10px auto;
+	width: 520px;
+}
+#scrollbar2 .scrollbar {
+	clear: both;
+	height: 8px;
+	margin: 0 0 5px;
+	position: relative;
+	background:#ccc;
+}
+#scrollbar2 .track {
+	background:#ccc;
+	height: 8px;
+	position: relative;
+	width: 100%;
+}
+#scrollbar2 .thumb {
+	background:#CC0071;
+	cursor: pointer;
+	height: 8px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+}
+#scrollbar2 .viewport {
+	height: 125px;
+	overflow: hidden;
+	position: relative;
+	width: 520px;
+}
+#scrollbar2 .overview {
+	left: 0;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 3000px;
+}
+/* 代码整理：懒人之家 www.lanrenzhijia.com */
+
+
+
+.use {
+	width:500px;
+	height:auto;
+	margin:30px auto;
+	color:#999;
+}
+.use p {
+	text-align:left;
+	color:#999;
+	line-height:180%;
+	text-indent:2em;
+}
